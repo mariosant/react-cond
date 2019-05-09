@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - lts/*
+cache: yarn
+install: yarn
+script: yarn test
+deploy:
+  provider: npm
+  email: mariosant@sent.com
+  api_key:
+    secure: R6DIKy1zDg1JOMWHgBPYfVeCYDOT9dD30viCmnvf5F3KGAENVFXiVZvGu22IhjR8HVlqoxyKmeCijcH0oOdYyXDzKaoYrRPs7rBA/7Kl27P1k1iZfMkeOTO6USMoymkuFT1G3WOF4fIgxQf6YY79mkNwGPqs9ebnIke6XYoz9PU39DENSXJ/GFthz3y2SVhw3rPqkpk+HW0UyscQ4X576rni6WyFp1wODMLyhdlYrQViQMNDLuovOJBokTsZVz79DoL3St2IKbB8zMVUyXaLph6ogXtvmIyV7kDKN0jdSDvGH55zqCi3V2umg4qrvLXyboobGMO+WyhBJoel72fG6z717Gush2oiKu47royEeap5orXmR+2gO4FgY+1kYhCa8qtWHInK4ypJTuC8eGl0bcjM4rGhSg+iVJdbzq7vTpm8KRzMyU2h9ZxLQFc6Vtzfamc8bIPR0n3A5ZIegAprjqAA5grcjzuWiZiY1Rh0mt8b7UDjjmv7AB9v/Y+xTSJ05sVhJsUuSlw3BDBhKFF2+4iUN2PUgIY/gJPDEjkvLP90w78shFksjki61+Hb4poqYwv2ce5K+rXP+pDGCkyVjbxbBLrkkxopVV59WLjybtYj4XdvaIRMRlH8XBhqohcxZpDB1oDqKE9Yee35fd7BoZNKu7ezsWjYX0BQ4JAC0S4=
+  on:
+    tags: true
+    repo: mariosant/react-pagination-hooks
+  skip_cleanup: true
