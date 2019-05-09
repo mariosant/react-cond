@@ -5,7 +5,7 @@
 		"email": "mariosant@sent.com",
 		"website": "https://mariosant.carrd.co"
 	},
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Create components based on conditions, with ease",
 	"main": "./dist/index.js",
 	"scripts": {
