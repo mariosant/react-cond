@@ -6,7 +6,7 @@
 		"website": "https://mariosant.carrd.co"
 	},
 	"version": "0.0.1",
-	"description": "Create paginated content with this easy to use React Hook",
+	"description": "Create components based on conditions, with ease",
 	"main": "./dist/index.js",
 	"scripts": {
 		"lint": "xo",
