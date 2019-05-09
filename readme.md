@@ -26,7 +26,6 @@ const Component = ({data}) => `This is the actual data: ${data}`;
 // Predicates
 const isPending = ({pending}) => pending;
 const hasError = ({error}) => error;
-const isUnauthorized = ({user}) => !user;
 const isOk = ({error, pending, data}) => !error && !pending && data;
 
 // Final complex component
