@@ -1,4 +1,4 @@
-import cond from '../src';
+import cond, {hoc} from '../src';
 
 const Pending = () => 'Loading. Please wait...';
 const NonIdeal = () => 'It seems there is an error!';
@@ -23,3 +23,13 @@ export const ComplexComponent = cond(
 );
 
 export const SimpleComponent = cond([isOk, Component], NonIdeal);
+
+export const WithHocComplexComponent = hoc(
+	[isPending, Pending],
+	[hasError, NonIdeal],
+	[isUnauthorized, Unauthorized],
+	[isEmpty, Empty],
+	[isOk, Component],
+)(NonIdeal);
+
+export const WithHocSimpleComponent = hoc([isOk, Component])(NonIdeal);
