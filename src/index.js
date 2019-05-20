@@ -25,3 +25,6 @@ const conditionFn = (...args) => {
 };
 
 export default conditionFn;
+
+export const hoc = (...conditions) => defaultCase =>
+	conditionFn(...[...conditions, defaultCase]);
