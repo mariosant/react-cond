@@ -3,7 +3,7 @@
 > Create components based on conditions, with ease.
 
 [![NPM version](https://img.shields.io/npm/v/@mariosant/react-cond.svg)](https://www.npmjs.com/package/@mariosant/react-cond)
-[![CircleCI](https://circleci.com/gh/mariosant/package-name/tree/master.svg?style=svg)](https://circleci.com/gh/mariosant/react-cond/tree/master)
+[![CircleCI](https://circleci.com/gh/mariosant/react-cond/tree/master.svg?style=svg)](https://circleci.com/gh/mariosant/react-cond/tree/master)
 
 ## Installation
 
