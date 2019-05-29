@@ -1,10 +1,11 @@
 # React Cond
 
-> Create components based on conditions, with ease.
+Create components based on conditions, with ease.
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M7W45W)
 
 [![NPM version](https://img.shields.io/npm/v/@mariosant/react-cond.svg)](https://www.npmjs.com/package/@mariosant/react-cond)
 [![CircleCI](https://circleci.com/gh/mariosant/react-cond/tree/master.svg?style=svg)](https://circleci.com/gh/mariosant/react-cond/tree/master)
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M7W45W)
 
 ## Installation
 
